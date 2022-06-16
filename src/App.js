@@ -9,21 +9,22 @@ import { Resume } from './resume';
 import { Portfolio } from './portfolio';
 import { Contact } from './contact';
 import HomePage from "./home-page";
+import { NavBarSection } from "./nav-bar-section/nav-bar-section";
 
 
 function App() {
-  return (
+    return (
     <div className="App">
-        <HomePage></HomePage>
-        <Router>  
+      <Router> 
+        <NavBarSection></NavBarSection>
             <Routes>
-                <Route path="/about" element={ About } />
-                <Route path="/resume" element={ Resume } />
-                <Route path="/portfolio" element={ Portfolio } />
-                <Route path="/contact" element={ Contact } />
-                <Route path="/" element={ HomePage } />
+                <Route exact path="/about" element={<About />} />
+                <Route exact path="/resume" element={<Resume />} />
+                <Route exact path="/portfolio" element={<Portfolio />} />
+                <Route exact path="/contact" element={<Contact />} />
+                <Route exact path="/" element={<HomePage />} />
             </Routes>
-        </Router>
+      </Router>
     </div>
   );
 }

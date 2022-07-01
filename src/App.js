@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 
 import { About } from "./about";
-import { Resume } from './resume';
+import  Resume from "./resume";
 import { Portfolio } from './portfolio';
 import { Contact } from './contact';
 import HomePage from "./home-page";
@@ -30,7 +30,7 @@ function App() {
       </Router>
       <div className="fixed-footer">
         <p>hyperspace</p>
-        <a href="https://sheetalrprasad.github.io/" target="_blank">sheetalrprasad</a>
+        <a href="https://sheetalrprasad.github.io/" target="_blank" rel="noreferrer">sheetalrprasad</a>
       </div>
     </div>
   );

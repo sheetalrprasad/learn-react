@@ -1,0 +1,10 @@
+@media only screen and (min-width: 600px) {
+    div .resume{
+        height: 100%;
+        padding: 2%;
+    }
+
+    .resume-title {
+        text-align: center;
+    }
+}

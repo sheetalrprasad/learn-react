@@ -1,3 +1,3 @@
-export function Resume(){
-    return <h2>resume</h2>
-}
+import { Resume } from "./resume";
+
+export default Resume;

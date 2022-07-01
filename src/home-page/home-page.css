@@ -5,7 +5,34 @@ body{
     color: white;
 }
 
+.row {
+    background-color: black;
+    height: 645px;
+    display: flex;
+    margin: 5%;
+}
+
+.col {
+    /* background-color: orange ; */
+    flex: 50%;
+    height: 100%;
+}
+
+.image1 img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 645px;
+    margin-left: -15px; 
+}
+
 .home-page{
-    margin-top: 10%;
+    align-items: center;
     text-align: center;
+    margin-right: 5%;
+    margin-top: 20%;
+}
+
+.quote{
+    text-align: center;
+    padding-top: 20%;
 }

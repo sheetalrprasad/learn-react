@@ -4,7 +4,7 @@ import  logo from "../static/s.png"
 export function NavBarSection() {
   return (
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
                     <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item">

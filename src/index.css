@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.fixed-header, .fixed-footer{
+  width: 100%;
+  position: relative;        
+  padding: 10px 0;
+  color: #fff;
+}
+.fixed-header{
+  margin-left: 2%;
+  font-weight: bold;
+  top: 0;
+}
+.fixed-footer{
+  text-align: center;
+  bottom: 0;
+}

@@ -15,6 +15,9 @@ import { NavBarSection } from "./nav-bar-section/nav-bar-section";
 function App() {
     return (
     <div className="App">
+      <div className="fixed-header">
+        <p>SHEETAL R PRASAD</p>
+      </div>
       <Router> 
         <NavBarSection></NavBarSection>
             <Routes>
@@ -25,6 +28,10 @@ function App() {
                 <Route exact path="/" element={<HomePage />} />
             </Routes>
       </Router>
+      <div className="fixed-footer">
+        <p>hyperspace</p>
+        <a href="https://sheetalrprasad.github.io/" target="_blank">sheetalrprasad</a>
+      </div>
     </div>
   );
 }

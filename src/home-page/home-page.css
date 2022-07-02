@@ -1,8 +1,12 @@
 body{
     background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #131111, #181717);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #131111, #181717); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
+}
+
+span .highlight {
+    color: rgb(135, 224, 163) ;
 }
 
 @media only screen and (min-width: 600px) {
@@ -11,7 +15,9 @@ body{
         background-color: black;
         height: 645px;
         display: flex;
-        margin: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
         flex-direction: row;
     }
 
@@ -35,12 +41,37 @@ body{
         align-items: center;
         text-align: center;
         margin-right: 5%;
-        margin-top: 20%;
+        margin-top: 45%;
+    }
+
+    .change {
+        color: rgb(135, 224, 163) ;
+        font-style: italic;
+        font-family: Trattatello, fantasy;
+    }
+
+    .section-border {
+        border: rgb(135, 224, 163) 20px solid;
+    }
+
+    .self {
+        text-align: center;
+        padding-top: 18%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    div div .row .quote-bg {
+        background-image: url('../static/notebook.jpg');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
     }
 
     .quote{
-        text-align: center;
-        padding-top: 20%;
+        text-align: left;
+        padding-top: 10%;
+        padding-left: 8%;
+        font-size: larger;
     }
 
 }
@@ -75,12 +106,19 @@ body{
     .home-page{
         align-items: center;
         text-align: center;
-        margin: 8%;
+        margin-top: 50%;
+    }
+
+    .self {
+        margin-top: 20%;
+        text-align: center;
+        padding: 2%;
     }
 
     .quote{
         text-align: center;
         justify-items: center;
         margin-top: 60%;
+        padding: 2%;
     }
 }

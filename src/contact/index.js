@@ -1,3 +1,3 @@
-export function Contact(){
-    return <h2>Contact</h2>
-}
+import { Contact } from "./contact";
+
+export default Contact;

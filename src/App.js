@@ -4,12 +4,12 @@ import {
   Route,
 } from "react-router-dom";
 
-import { About } from "./about";
+import About from "./about";
 import  Resume from "./resume";
-import { Portfolio } from './portfolio';
-import { Contact } from './contact';
+import Projects from "./projects"; 
+import Contact from './contact';
 import HomePage from "./home-page";
-import { NavBarSection } from "./nav-bar-section/nav-bar-section";
+import NavBarSection from "./nav-bar-section";
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
             <Routes>
                 <Route exact path="/about" element={<About />} />
                 <Route exact path="/resume" element={<Resume />} />
-                <Route exact path="/portfolio" element={<Portfolio />} />
+                <Route exact path="/projects" element={<Projects />} />
                 <Route exact path="/contact" element={<Contact />} />
                 <Route exact path="/" element={<HomePage />} />
             </Routes>

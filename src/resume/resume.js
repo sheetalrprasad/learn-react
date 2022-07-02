@@ -20,7 +20,7 @@ export function Resume(){
                         </div>
 
                         <div>
-                            <p>Innovative and deadline-driven Software Engineer with four years of experience designing and developing user-centered business management softwares. Based in San Diego.</p>
+                            <p>Below you will find a comprehensive collection of my professional experiences. Each position has been an important part of my career, and provided important tools to develop both personally and professionally. If you’re interested in references or learning more about my background, feel free to contact me directly.</p>
                         </div>
                     </div>
                     <br/>
@@ -29,6 +29,8 @@ export function Resume(){
                         <div className='section'>
                             <img src={connectwise} alt='connectwise'></img> 
                             <div className='para'>
+                                <h3>Software Engineer</h3>
+                                <h5>September 2020 - December 2021</h5>
                                 <p>Designed and developed the ticketing system for a unified platform based service.
                                     Developed microservices in Go-lang.
                                     Used Kafka for message publication and PostgreSQL for database management.
@@ -39,15 +41,14 @@ export function Resume(){
                         <div className='section'>
                             <img src={capco} alt='capco'></img> 
                             <div className='para'>
+                                <h3>Consultant</h3>
+                                <h5>August 2017 - September 2020</h5>
                                 <p>Worked on development of web application – data collection, system interaction with Rest API services and database.
                                     Successful launched a web-based application, replacing the existing system with Appway Client Onboarding System - developed from scratch.
                                     Coached team members on technologies used in project.
                                     Experience of working with a geographically distributed team.
                                 </p>
                             </div>
-                        </div>
-                        <div className='section'>
-
                         </div>
                     </div>
                 </div>
